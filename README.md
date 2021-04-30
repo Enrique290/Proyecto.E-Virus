@@ -1,4 +1,4 @@
-# Proyecto.E-Virus
+# Proyecto.E - Virus
 
 ## Equipo - Los Discos Mas Duros
 
