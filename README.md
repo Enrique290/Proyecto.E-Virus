@@ -1,4 +1,4 @@
-# Proyecto E - Virus
+# Proyecto E - Virus Trollano
 
 ## Equipo - Los Discos Mas Duros
 
