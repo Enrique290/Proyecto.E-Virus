@@ -25,7 +25,7 @@ Contador=1
 #Aqui esta el ciclo while en donde vamos aumentando el contador, cada vez que hace el ciclo se crea una carpeta nueva.
 #En esta parte tambien se pone el limite de carpetas con archivos que se deseen crear.
 #En nuestro caso ponemos 150 por lo tanto se crearan 150 carpetas de archivos en el escritorio del usuario.
-while [ $Contador -lt 10 ]
+while [ $Contador -lt 150 ]
 
 do 
 mkdir "Джепетомамахуево $Contador" #En esta parte utilizamos la intruccion mkdir para crear cada carpeta con el mismo nombre pero con numero diferente en cada ciclo.
