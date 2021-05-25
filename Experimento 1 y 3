@@ -14,7 +14,7 @@
 # Izaguirre Camacho Jorge
 # /////////////////////////////////////////////////////////////
 # Aqui empieza el codigo del virus troyano de replicacion
-# Experimento 1
+# Experimento 1 y 3
 
 #Aqui inicializamos el contador que se utiliza en el ciclo while para replicar lar carpetas con archivos.
 Contador=1
@@ -22,7 +22,7 @@ Contador=1
 #Aqui esta el ciclo while en donde vamos aumentando el contador, cada vez que hace el ciclo se crea una carpeta nueva.
 #En esta parte tambien se pone el limite de carpetas con archivos que se deseen crear.
 #En nuestro caso ponemos 150 por lo tanto se crearan 150 carpetas de archivos en el escritorio del usuario.
-while [ $Contador -lt 10 ]
+while [ $Contador -lt 150 ]
 
 do
 mkdir "Джепетомамахуево $Contador"
