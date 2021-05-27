@@ -15,3 +15,8 @@ La seguridad a nivel informático, es uno de los campos que más se han desarrol
 
 
 ![Virus_Ejecutado](https://github.com/Enrique290/Proyecto.E-Virus-Trollano/blob/main/ScreenShot.jpg)
+
+
+El experimento 1,2 y 3 pertecen al proyecto de sistemas operativos 2.
+
+Las capturas de pantalla son parte de los resultados obtenidos en el proyecto.
