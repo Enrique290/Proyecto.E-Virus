@@ -1,4 +1,4 @@
-# Proyecto E - Virus Trollano
+# Proyecto E - Virus Troyano
 
 ## Equipo - Los Discos Mas Duros
 
@@ -10,7 +10,7 @@
 * Castillo Corona Enrique
 * Izaguirre Camacho Jorge
 
-El experimento 1,2 y 3 pertecen al proyecto de sistemas operativos 2.
+El experimento 1, 2 y 3 pertecen al proyecto de sistemas operativos 2.
 
 Las capturas de pantalla son parte de los resultados obtenidos en el proyecto.
 
