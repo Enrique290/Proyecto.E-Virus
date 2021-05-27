@@ -17,7 +17,7 @@
 # Experimento 2
 
 
-#Aqui utilizamos el comando cd para generalizar e indicar todo el porgrama se realiace en el programa.
+#Aqui utilizamos el comando cd para generalizar e indicar todo el porgrama se realice en el programa.
 cd ./Escritorio
 #Aqui inicializamos el contador que se utiliza en el ciclo while para replicar lar carpetas con archivos.
 Contador=1
